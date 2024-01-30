@@ -1,8 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        forum: ["Forum", "sans-serif"],
+        raleway: ["Raleway", "sans-serif"],
+      },
+      colors: {
+        "dark-blue": "#0e1423",
+      },
+    },
   },
   plugins: [],
 };

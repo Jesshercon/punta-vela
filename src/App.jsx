@@ -1,11 +1,11 @@
-import { useState } from "react";
 import "./App.css";
+import { FaWhatsapp } from "react-icons/fa";
+import Home from "./components/Home/Home";
 
 function App() {
   return (
     <>
-      <div>hello</div>
-      <div>Video</div>
+      <Home />
     </>
   );
 }
