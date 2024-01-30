@@ -1,5 +1,3 @@
-import "./App.css";
-import { FaWhatsapp } from "react-icons/fa";
 import Home from "./components/Home/Home";
 
 function App() {

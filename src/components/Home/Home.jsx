@@ -1,9 +1,15 @@
 import { FaWhatsapp } from "react-icons/fa";
 
+const LINKS = {
+  WHATSAPP:
+    "https://api.whatsapp.com/send?phone=+526563015805&text=Quiero%20más%20información%20sobre%20VelaTowers",
+  LOCATION: "https://maps.app.goo.gl/WEUjS8xLdRbwD9nz6",
+};
+
 function Home() {
   return (
-    <div className="md:flex min-h-screen pb-[500px] relative">
-      <div className="w-full md:w-1/2 z-10 bg-dark-blue flex flex-col h-full justify-between">
+    <div className="flex flex-col md:flex-row gap-10">
+      <div className="min-h-full h-screen w-full md:w-1/2 z-10 bg-dark-blue flex flex-col justify-between px-4 space-y-10">
         <div></div>
         <div className="self-center text-center">
           <img
@@ -15,31 +21,29 @@ function Home() {
           </p>
         </div>
         <div className="self-center">
-          <div className="bg-white text-xs md:text-sm inline-flex gap-1 md:gap-2 p-1 md:p-2 px-1 md:px-4 font-raleway">
-            <a
-              className="flex items-center gap-1"
-              href="https://api.whatsapp.com/send?phone=+526563015805&text=Quiero%20más%20información%20sobre%20VelaTowers"
-            >
+          <div className="bg-white text-sm inline-flex flex-wrap gap-1 md:gap-2 p-1 md:p-2 px-1 md:px-4 font-raleway text-center justify-center">
+            <a className="flex items-center gap-1" href={LINKS.WHATSAPP}>
               <FaWhatsapp className="text-base" />
               <p>(656) 301 5805</p>
             </a>
 
-            <p>
+            <a href={LINKS.LOCATION} target="_blank" rel="noreferrer">
               | Rancho El Retiro 7608, Fracc. Partido Iglesias, C. Juárez, Chih.
-            </p>
+            </a>
           </div>
         </div>
       </div>
 
       <video
-        className="w-[200%] md:top-0 md:bottom-auto bottom-0 top-auto right-0 lg:w-full z-0 h-[500px] absolute md:h-full lg:object-cover lg:object-right-bottom"
-        src="/hero-video.mp4"
-        autoPlay
-        playsInline
-        muted
-        controls={false}
-        loop
-      />
+          className="md:h-screen w-full md:w-1/2 object-contain object-center lg:object-cover lg:object-bottom"
+          autoPlay
+          playsInline
+          muted
+          controls={false}
+          loop
+        >
+          <source src="/hero-video-cropped.mp4" type="video/mp4" />
+        </video>
     </div>
   );
 }
