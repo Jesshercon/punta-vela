@@ -2,7 +2,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const LINKS = {
   WHATSAPP:
-    "https://api.whatsapp.com/send?phone=+526566385985&text=Quiero%20más%20información%20sobre%20VelaTowers",
+    "https://api.whatsapp.com/send?phone=+526566385985&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20PuntaVela",
   LOCATION: "https://maps.app.goo.gl/WEUjS8xLdRbwD9nz6",
 };
 
