@@ -4,11 +4,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        forum: ["Forum", "sans-serif"],
-        raleway: ["Raleway", "sans-serif"],
+        'arial': 'Arial, sans-serif',
       },
       colors: {
-        "dark-blue": "#0e1423",
+        "dark-blue": "#19232E",
       },
     },
   },
