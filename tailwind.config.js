@@ -8,7 +8,7 @@ export default {
         raleway: ["Raleway", "sans-serif"],
       },
       colors: {
-        "dark-blue": "#0e1423",
+        "dark-blue": "#19232E",
       },
     },
   },
