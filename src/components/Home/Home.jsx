@@ -14,7 +14,7 @@ function Home() {
         <div className="self-center text-center">
           <img
             className="w-80 max-w-full mx-auto"
-            src="public/img_logo_puntavela.png"
+            src="/img_logo_puntavela.png"
           />
           <p className="text-white text-xl font-arial md:text-lg pt-16 px-4 md:px-0 tracking-widest">
           EL PRIVILEGIO DE LA EXCLUSIVIDAD <br/> EN UN ENTORNO SEGURO
