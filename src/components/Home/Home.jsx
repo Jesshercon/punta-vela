@@ -13,22 +13,22 @@ function Home() {
         <div></div>
         <div className="self-center text-center">
           <img
-            className="w-80 max-w-full"
-            src="/images/svg-logo-velatowers.svg"
+            className="w-80 max-w-full mx-auto"
+            src="public/img_logo_puntavela.png"
           />
-          <p className="text-white text-xl md:text-2xl pt-16 px-4 md:px-0 tracking-widest font-forum">
-            UN NUEVO ESTILO DE VIDA
+          <p className="text-white text-xl md:text-lg pt-16 px-4 md:px-0 tracking-widest">
+          EL PRIVILEGIO DE LA EXCLUSIVIDAD <br/> EN UN ENTORNO SEGURO
           </p>
         </div>
         <div className="self-center">
-          <div className="bg-white text-sm inline-flex flex-wrap gap-1 md:gap-2 p-1 md:p-2 px-1 md:px-4 font-raleway text-center justify-center">
+          <div className="text-white text-sm inline-flex flex-wrap gap-1 md:gap-2 p-1 md:p-2 px-1 md:px-4  text-center justify-center">
             <a className="flex items-center gap-1" href={LINKS.WHATSAPP}>
               <FaWhatsapp className="text-base" />
               <p>(656) 638 5985</p>
             </a>
 
-            <a href={LINKS.LOCATION} target="_blank" rel="noreferrer">
-              | Rancho El Retiro 7608, Fracc. Partido Iglesias, C. Juárez, Chih.
+            <a href="#" target="_blank" rel="noreferrer">
+              | C. Juárez, Chih.
             </a>
           </div>
         </div>
@@ -42,7 +42,7 @@ function Home() {
           controls={false}
           loop
         >
-          <source src="/hero-video-cropped.mp4" type="video/mp4" />
+          <source src="/home-video-punta-vela.mp4" type="video/mp4" />
         </video>
     </div>
   );

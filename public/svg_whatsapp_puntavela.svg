@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="71" viewBox="0 0 70 71">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#20b038"/>
+      <stop offset="1" stop-color="#60d66a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9f9f9"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="svg_whatsapp_puntavela" transform="translate(35.773 32.433)">
+    <rect id="Rectángulo_481" data-name="Rectángulo 481" width="70" height="71" transform="translate(-35.773 -32.433)" fill="none" opacity="0.06"/>
+    <rect id="Rectángulo_482" data-name="Rectángulo 482" width="63" height="64" transform="translate(-32.773 -29.432)" fill="none" opacity="0.15"/>
+    <path id="Trazado_43" data-name="Trazado 43" d="M1.1,61.242,5.406,45.513a30.365,30.365,0,1,1,26.315,15.2h-.012A30.349,30.349,0,0,1,17.2,57.02ZM17.942,51.53l.921.55A25.2,25.2,0,0,0,31.709,55.6h.012A25.211,25.211,0,1,0,10.346,43.779l.6.957L8.4,54.042Z" transform="translate(-32.483 -28.212)" fill="#fff"/>
+    <path id="Trazado_44" data-name="Trazado 44" d="M10,68.013l4.163-15.179A29.3,29.3,0,1,1,39.545,67.511h-.012a29.3,29.3,0,0,1-14.007-3.565Z" transform="translate(-40.318 -36.047)" fill="url(#linear-gradient)"/>
+    <rect id="Rectángulo_483" data-name="Rectángulo 483" width="65" height="64" transform="translate(-33.773 -29.433)" fill="none" opacity="0.04"/>
+    <path id="Trazado_45" data-name="Trazado 45" d="M1.1,61.242,5.406,45.513a30.365,30.365,0,1,1,26.315,15.2h-.012A30.349,30.349,0,0,1,17.2,57.02ZM17.942,51.53l.921.55A25.2,25.2,0,0,0,31.709,55.6h.012A25.211,25.211,0,1,0,10.346,43.779l.6.957L8.4,54.042Z" transform="translate(-32.483 -28.212)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectángulo_484" data-name="Rectángulo 484" width="34" height="32" transform="translate(-17.773 -13.433)" fill="none" opacity="0.06"/>
+    <path id="Trazado_46" data-name="Trazado 46" d="M135.847,137.806c-.574-1.268-1.172-1.292-1.71-1.316-.443-.024-.945-.012-1.459-.012a2.8,2.8,0,0,0-2.021.945A8.5,8.5,0,0,0,128,143.751c0,3.732,2.715,7.344,3.1,7.847s5.251,8.409,12.954,11.447c6.411,2.524,7.715,2.021,9.1,1.9s4.486-1.83,5.119-3.6a6.287,6.287,0,0,0,.443-3.6c-.191-.311-.694-.5-1.459-.885s-4.486-2.213-5.179-2.464-1.2-.383-1.71.383-1.962,2.464-2.4,2.966-.885.574-1.639.191a20.874,20.874,0,0,1-6.1-3.768A22.824,22.824,0,0,1,136,148.918c-.443-.754-.048-1.172.335-1.543.335-.335.754-.885,1.136-1.328a4.87,4.87,0,0,0,.754-1.268,1.4,1.4,0,0,0-.06-1.328C138,143.057,136.528,139.313,135.847,137.806Z" transform="translate(-144.204 -148.362)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>
