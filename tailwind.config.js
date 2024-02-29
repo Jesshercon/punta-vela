@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'arial': 'Helvetica, Arial, sans-serif',
+        'arial': 'Arial, sans-serif',
       },
       colors: {
         "dark-blue": "#19232E",
